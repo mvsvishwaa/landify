@@ -1,0 +1,440 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family: popinsbold;
+    src: url(./fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: popinslig;
+    src: url(./fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: popinsreg;
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: popinsmed;
+    src: url(./fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: volkbold;
+    src: url(./fonts/Volkhov-Bold.ttf);
+}
+@font-face {
+    font-family: volkreg;
+    src: url(./fonts/Volkhov-Regular.ttf);
+}
+@font-face {
+    font-family: circblack;
+    src: url(./fonts/CircularStd-Black.ttf);
+}
+@font-face {
+    font-family: circbook;
+    src: url(./fonts/CircularStd-Book.ttf);
+}
+@font-face {
+    font-family: circmed;
+    src: url(./fonts/CircularStd-Medium.ttf);
+}
+.width{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    .logo{
+        display: flex;
+        align-items: center;
+        a{
+            margin-right: 2em;
+        }
+        ul{
+            display: flex;
+            li{
+                list-style-type: none;
+                margin: 0px 5px;
+                a{
+                    text-decoration: none;
+                    font-family: popinsmed;
+                    color: #000;
+                    font-size: 15px;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+        .appstore{
+            a{
+                img{
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+    .description{
+        margin-top: 7em;
+        h1{
+            font-family: popinsmed;
+            max-width: 55%;
+            font-size: 3.2em;
+        }
+        p{
+            font-family: popinsreg;
+            max-width: 60%;
+            margin-top: 1em;
+            margin-bottom: 3em;
+        }
+        a{
+            text-decoration: none;
+            text-transform: capitalize;
+            margin-right: 20px;
+            border: 2px solid blueviolet;
+            background-color: blueviolet;
+            color: white;
+            padding: 12px;
+            border-radius: 7px;
+        }
+    }
+}
+.width-logo{
+    max-width: 1300px;
+    margin: 0 auto;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    .partner-width{
+        max-width: 70%;
+        margin: 0 auto;
+        .partners-logo{
+            img{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-right: 3em;
+            }
+        }
+    }
+}
+.center-part{
+    margin-top: 5em;
+    h2{
+        text-align: center;
+        font-size: 2.5em;
+        text-transform: capitalize;
+        font-family: 'popinsreg'; 
+    }
+    p{
+        font-family: popinslig;
+        max-width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+}
+/* .flex-part{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 4em;
+
+} */
+.img-flex{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4em;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .img6{
+        flex-basis: 30%;
+        margin-top: 3em;
+        img{
+            margin-left: 12em;
+            margin-bottom: 15px;
+        }
+        h5{
+            text-align: center;
+            font-family: popinsmed;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        p{
+           text-align: center;
+           font-family: popinsreg;
+           font-size: 14px;
+        }
+    }
+}
+.container-clr{
+    position: relative;
+    margin-top: 4em;
+    background-color:rgba(29, 211, 208, 0.288);
+    height:52em;
+    .stories{
+        position: absolute;
+        top: 7em;
+        i{
+            position: absolute;
+            left: 0.3em;
+            bottom: 50px;
+            font-size: 10em;
+            color:rgba(29, 211, 208, 0.288) ;
+        }
+        h3{
+            font-family: 'popinsmed';
+            font-size: 2.5em;
+            max-width: 60%;
+            margin-left: 4em;
+        }
+        h4{
+            font-family: 'popinsreg';
+            margin-left: 10em;
+            font-weight: 500;
+        }
+    }
+    .story-design{
+        position: relative;
+        .story-box{
+            position: absolute;
+            top: 20em;
+            left: 18em;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            color:#000;
+            background-color: #fff;
+            max-width: 22%;
+            padding: 38px;
+            p{
+                font-family: 'popinsreg';
+                font-size: 15px;
+                margin-top: 20px;
+                text-align: left;
+            }
+            h5{
+                font-family: 'popinsmed';
+                font-size: 15px;
+                margin-top: 20px;
+            }
+            h6{
+                font-family: 'popinslig';
+                margin-top: 7px;
+            }
+        } 
+        .story-box1{
+            position: absolute;
+            top: 13em;
+            left: 41em;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            color:#000;
+            background-color: #fff;
+            max-width: 29%;
+            padding: 38px;
+            p{
+                font-family: 'popinsreg';
+                font-size: 15px;
+                margin-top: 20px;
+                text-align: left;
+            }
+            h5{
+                font-family: 'popinsmed';
+                font-size: 15px;
+                margin-top: 20px;
+            }
+            h6{
+                font-family: 'popinslig';
+                margin-top: 7px;
+            }
+        }
+        .story-box2{
+            position: absolute;
+            top: 32em;
+            left: 41em;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            color:#000;
+            background-color: #fff;
+            max-width: 22%;
+            padding: 38px;
+            p{
+                font-family: 'popinsreg';
+                font-size: 15px;
+                margin-top: 20px;
+                text-align: left;
+            }
+            h5{
+                font-family: 'popinsmed';
+                font-size: 15px;
+                margin-top: 20px;
+            }
+            h6{
+                font-family: 'popinslig';
+                margin-top: 7px;
+            }
+        }
+    }
+}
+.total-achievement{
+    margin-top: 5em;
+    margin-bottom: 5em;
+    display: flex;
+    justify-content: space-between;
+    .achievement-part{
+        h3{
+            font-family: 'popinsbold';
+            font-size: 2.5em;
+            max-width: 50%;            
+        }
+        h4{
+            font-family: 'popinslig';
+            font-weight: 500;        
+        }
+    }
+    .our-achievements{
+        display: flex;
+        flex-wrap: wrap;
+        .div-achive{
+            flex-basis: 50%;
+            display: flex;
+            .ach-img{
+                margin-top: 27px;
+            }
+            .des{
+                margin-left: 20px;
+                margin-bottom: 2em;
+                h5{
+                    font-family: 'popinsreg';
+                    font-size: 2.2em;
+                }
+                h6{
+                    font-family: 'popinslig';
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+.total-tools{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(184, 29, 211, 0.103);
+    .total-fav{
+        margin-top: 2em;
+        h5{
+            font-size: 2.5em;
+            font-family: 'popinsbold';
+            text-transform: capitalize;
+            max-width: 60%;
+        }
+        h6{
+            font-size: 1em;
+            font-family: 'popinslig';
+            font-weight: 500;
+            max-width: 60%;
+        }
+    }
+
+}
+.before-footer{
+    margin-top: 3em;
+    display: flex;
+    background-color: rgb(29, 193, 211);
+    position: relative;
+    .manage-proj{
+        margin-left:4em;
+        h2{
+            font-size: 2.5em;
+            font-family: 'popinsbold';
+            max-width: 60%;
+            margin-top: 3em;
+        }
+        p{
+            font-size: 1em;
+            font-family: 'popinslig';
+            max-width: 50%;
+            margin-top: 10px;
+        }
+        h3{
+            font-size: 15px;
+            font-family: popinsreg;
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+        img{
+            margin-bottom: 2.9em;
+        }
+    }
+    .phone-mockup{
+        position: absolute;
+        left: 47em;
+    }
+}
+.footer{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    .footer-menu{
+        margin-top: 3em;
+        margin-left: 3em;
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-family: popinslig;
+            h3{
+                margin-top: 1em;
+                margin-bottom: 10px;
+                font-size: 14px;
+            }
+            h4{
+                font-size: 14px;
+            }
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: space-around;
+            li{
+                margin-top: 1em;
+                margin-bottom: 1.5em;
+               a{
+                margin-top: 1em;
+                text-transform: capitalize;
+                font-size: 14px;
+                margin-left: 20px;
+               }
+            }
+        }
+    }
+    h5{
+        font-family: 'popinslig';
+        font-weight: 100;
+        margin-bottom: 2em;
+    }
+    .end-footer{
+        margin-top: 3em;
+        .getapp{
+            h6{
+                font-family: popinsreg;
+                font-size: 14px;
+                margin-bottom: 1em;
+            }
+        }
+        .play-flex{
+            a{
+                img{
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
