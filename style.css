@@ -437,4 +437,192 @@
         }
     }
 }
+@media (max-width: 600px){
 
+    .logo{
+        img{
+            margin-left: 2em;
+        }
+        ul{
+            li{
+                display: none;
+            }
+        }
+    }
+    .appstore{
+        display: none;
+    }
+    .container1{
+        display: block;
+        .description{
+            max-width: 90%;
+            margin: 0 auto;
+            margin-top: 0;
+            h1{
+                max-width: 100%;
+                font-size: 2.2em;
+            }
+            p{
+                max-width: 80%;
+                margin-bottom: 2em;
+            }
+            a{
+                margin-right: 2.4em;
+            }
+            .video2{
+                margin-right: 0;
+            }
+        }
+        .mobimg{
+            margin-top: 4em;
+            text-align: center;
+            img{
+                max-width: 90%;
+            }
+        }
+    }
+    .width-logo{
+        max-width: 90%;
+        margin: 0 auto;
+        .partner-width{
+            max-width: 90%;
+            margin: 0 auto;
+            margin-left: 4em;
+        }
+    }
+    .center-part{
+        h2{
+            font-size: 2.2em;
+        }
+        p{
+            max-width: 90%;
+        }
+    }
+    .img-flex{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        .img6{
+            text-align: center;
+            img{
+            margin-left:0;
+            }
+        }
+    }
+    .container-clr{
+        height:77em;
+        .stories{
+            h3{
+                font-size: 2em;
+                max-width: 100%;
+                margin-left: 10px;
+            }
+            i{
+                display: none;
+            }
+            h4{
+                margin-left: 1em;
+            }
+        }
+        .story-design{
+                max-width: 90%;
+                margin: 0 auto;
+            .story-box{
+                left: 0;
+                top: 36em;
+                padding: 20px 57px;
+                max-width: 100%;
+            }
+            .story-box1{
+                left: 0;
+                top: 16em;
+                padding: 20px 57px;
+                max-width: 100%;
+            }
+            .story-box2{
+                left: 0;
+                top: 59em;
+                padding: 20px 57px;
+                max-width: 100%;
+            }
+        }
+    }
+    .total-achievement{
+        display: block;
+        margin-top: 2em;
+        .achievement-part{
+            margin-left: 2em;
+            h3{
+                font-size: 2em;
+                max-width: 90%;
+            }
+        }
+        .our-achievements{
+            flex-direction: column;
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 3em;
+        }
+    }  
+    .total-tools{
+        display: block;
+        width: 90%;
+         margin: 0 auto;
+        .total-fav{
+            h5{
+                max-width: 90%;
+                font-size: 2em;
+            }
+            h6{
+                max-width: 90%;
+                margin-top: 10px;
+            }
+        }
+        .tools{
+            img{
+                max-width: 20em;
+            }
+        }
+    }
+    .before-footer{
+        display: block;
+        height: 76em;
+        .manage-proj{
+            width: 90%;
+             margin: 0 auto;
+         h2{
+            max-width: 100%;
+            font-size: 1.8em;
+            margin-top: 0;
+         }
+         p{
+            max-width: 100%;
+         }
+         h3{
+            margin-top: 3em;
+         }
+        }
+        .phone-mockup{
+            left: 0;
+        }
+    }
+    .footer{
+        display: block;
+        .footer-menu{
+            margin-top: 0;
+            margin-left: 2em;
+            img{
+                margin-top: 2em;
+            }
+            ul{
+                flex-wrap: wrap;
+                justify-content:left;
+            }
+        }
+    }
+    .end-footer{
+        .getapp{
+            margin-left: 2em;
+        }
+    }
+}
